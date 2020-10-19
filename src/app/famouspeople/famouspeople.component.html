@@ -1,0 +1,9 @@
+<p>famouspeople works!</p>
+
+<div *ngFor="let h of cshalloffame.complete">
+    <a routerLink="/famouspersondetail">{{h.firstName}} {{h.lastName}}</a>
+</div>
+<br />
+<div *ngFor="let c of cshalloffame.tiny">
+    <a routerLink="/famouspersondetail">{{c.name}}</a>
+</div>
